@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/aaronw/kicad/Projects/12v-booster-2/12v-booster-2.sch</source>
-    <date>Wed 31 Oct 2018 02:56:09 PM PDT</date>
+    <date>Wed 31 Oct 2018 03:15:16 PM PDT</date>
     <tool>Eeschema 5.0.1-5.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -337,9 +337,9 @@
     <comp ref="C10">
       <value>68uF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf</datasheet>
       <fields>
-        <field name="MFR">TDK</field>
+        <field name="MFR">Vishay</field>
         <field name="MPN">C3216X5R1A686M160AC</field>
         <field name="SPN">445-14673-1-ND</field>
         <field name="SPR">Digikey</field>
