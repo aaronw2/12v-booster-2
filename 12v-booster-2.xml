@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/aaronw/kicad/Projects/12v-booster-2/12v-booster-2.sch</source>
-    <date>Wed 31 Oct 2018 06:39:32 AM PDT</date>
+    <date>Wed 31 Oct 2018 02:56:09 PM PDT</date>
     <tool>Eeschema 5.0.1-5.0.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Copyright © 2018 by Aaron Williams</title>
-        <company/>
-        <rev>1.0</rev>
+        <title>5V to 12V booster, 2A</title>
+        <company>Copyright © 2018 by Aaron Williams</company>
+        <rev>1.1</rev>
         <date>2018-10-31</date>
         <source>12v-booster-2.sch</source>
         <comment number="1" value=""/>
@@ -20,15 +20,15 @@
   </design>
   <components>
     <comp ref="L1">
-      <value>1.3uH</value>
-      <footprint>Aaron:L_Coilcraft_MLC1250</footprint>
-      <datasheet>MLC1250-132MLB</datasheet>
+      <value>0.068uH</value>
+      <footprint>Inductor_SMD:L_Vishay_IHLP-2020</footprint>
+      <datasheet>https://www.vishay.com/docs/34253/ihlp-2020bz-01.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">MLC1250-132MLB</field>
-        <field name="SPN">994-MLC1250-132MLC</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPURL">https://www.mouser.com/ProductDetail/Coilcraft/MLC1250-132MLC?qs=sGAEpiMZZMsg%252by3WlYCkU2kWFds1hA9D60ErimRX5VI%3d</field>
+        <field name="MFR">Vishay-Dale</field>
+        <field name="MPN">IHLP2020BZERR68M01</field>
+        <field name="SPN">541-1086-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/inductors-coils-chokes/fixed-inductors/71?k=IHLP2020BZERR68M01&amp;k=&amp;pkeyword=IHLP2020BZERR68M01&amp;pv7=2&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=25</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,30 +125,30 @@
       <tstamp>5BDB8FAB</tstamp>
     </comp>
     <comp ref="C3">
-      <value>1000pF</value>
+      <value>680pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <datasheet>https://katalog.we-online.de/pbs/datasheet/885012206107.pdf</datasheet>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">CC0603KRX7R9BB102</field>
-        <field name="SPN">311-1080-1-ND</field>
+        <field name="MFR">Wurth</field>
+        <field name="MPN">885012206107</field>
+        <field name="SPN">732-12237-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB102/311-1080-1-ND/302990</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/wurth-electronics-inc/885012206107/732-12237-1-ND/9346257</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BDBBF7A</tstamp>
     </comp>
     <comp ref="R4">
-      <value>47.5K</value>
+      <value>44.2K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
       <fields>
         <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-0747K5L</field>
-        <field name="SPN">311-47.5KHRCT-ND</field>
+        <field name="MPN">RC0603FR-0744K2L</field>
+        <field name="SPN">311-44.2KHRCT-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0747K5L/311-47.5KHRCT-ND/730202</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0744K2L/311-44.2KHRCT-ND/730188</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -170,15 +170,15 @@
       <tstamp>5BDBCA52</tstamp>
     </comp>
     <comp ref="R5">
-      <value>154K</value>
+      <value>162K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <datasheet>http://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-07154KL</field>
-        <field name="SPN">311-154KHRCT-ND</field>
+        <field name="MFR">Vishay-Dale</field>
+        <field name="MPN">TNPW0603162KBEEA</field>
+        <field name="SPN">541-3170-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/RC0603FR-07154KL/311-154KHRCT-ND/729908</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/vishay-dale/TNPW0603162KBEEA/541-3170-1-ND/6532812</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -275,30 +275,30 @@
       <tstamp>5BDC3AAA</tstamp>
     </comp>
     <comp ref="R2">
-      <value>86.6K</value>
+      <value>88.7K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
       <fields>
-        <field name="MFR">Vishay-Dale</field>
-        <field name="MPN">CRCW060386K6FKEA</field>
-        <field name="SPN">541-86.6KHCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0788K7L</field>
+        <field name="SPN">311-88.7KHRCT-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/vishay-dale/CRCW060386K6FKEA/541-86.6KHCT-ND/1180031</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0788K7L/311-88.7KHRCT-ND/730362</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BDC58F5</tstamp>
     </comp>
     <comp ref="R3">
-      <value>73.2K</value>
+      <value>68.1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>http://www.vishay.com/docs/20035/dcrcwe3.pdf</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
       <fields>
-        <field name="MFR">Vishay-Dale</field>
-        <field name="MPN">CRCW060373K2FKEA</field>
-        <field name="SPN">541-73.2KHCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0768K1L</field>
+        <field name="SPN">311-68.1KHRCT-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/vishay-dale/CRCW060373K2FKEA/541-73.2KHCT-ND/1180023</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/yageo/RC0603FR-0768K1L/311-68.1KHRCT-ND/730301</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -351,7 +351,7 @@
     </comp>
     <comp ref="Q2">
       <value>Si4421DY</value>
-      <footprint>Aaron:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>Aaron:SOIC127P600X175-8N</footprint>
       <datasheet>http://www.vishay.com/docs/72114/si4421dy.pdf</datasheet>
       <fields>
         <field name="MFR">Vishay</field>
